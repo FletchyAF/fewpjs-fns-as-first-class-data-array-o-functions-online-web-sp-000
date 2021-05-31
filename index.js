@@ -8,17 +8,17 @@ function leashDog(dogName, dogBreed) {
  return leash
 }
 
-function walkDog(dogName, dogBreed) {
+function walkToPark(dogName, dogBreed) {
  let walk = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
  return walk
 }
 
-function frisbeeDog(dogName, dogBreed) {
+function throwFrisbee(dogName, dogBreed) {
  let frisbee = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
  return frisbee
 }
 
-function returnDog(dogName, dogBreed) {
+function walkHome(dogName, dogBreed) {
  let home = console.log(`Walk home with ${dogName} the ${dogBreed}`);
  return home
  
@@ -28,3 +28,5 @@ function unleashDog(dogName, dogBreed) {
  let unleash = console.log(`Unleash ${dogName}n the p${dogBreed}`);
  return unleash
 }
+
+var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
