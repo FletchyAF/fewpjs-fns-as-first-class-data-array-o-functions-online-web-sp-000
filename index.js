@@ -32,8 +32,5 @@ function unleashDog(dogName, dogBreed) {
 var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
 function exerciseDog(dogName, dogBreed) {
-  i = 0;
-  while (i < routine.length) {
-    
-  }
+ return routine.map(fn => fn(dogName, dogBreed))
 }
